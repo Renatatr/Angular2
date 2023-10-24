@@ -75,7 +75,7 @@
   color: var(--vermelho);
 }
 
-.ng-touched.ng-invalid:not(form){
+.ng-touched.ng-invalid.ng-dirty:not(form){
   border-color: red;
   color: red;
 }
